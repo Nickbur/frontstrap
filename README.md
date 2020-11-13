@@ -1,1 +1,8 @@
-# front-starter
+##
+
+```
+npm install
+```
+```
+npm update
+```
