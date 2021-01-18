@@ -1,4 +1,6 @@
 /.vscode
+/.idea
 /node_modules
-package-lock.json
-/assets
+/package-lock.json
+/public/assets
+!/public/assets/.gitkeep
