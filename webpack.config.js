@@ -6,13 +6,13 @@ module.exports = {
 	// assets for work
 	entry: {
 		project: [
-			'./src/scripts.js', 
-			'./src/styles.scss'
+			'./src/js/scripts.js', 
+			'./src/scss/styles.scss'
 		],
 	},
 	// final assets
 	output: {
-		path: path.resolve(__dirname, 'assets'),
+		path: path.resolve(__dirname, 'public/assets'),
 		filename: 'scripts.js',
 	},
 	plugins: [
