@@ -4,11 +4,9 @@
 
 # Frontstrap
 
------
-
 ## Introduction:
 
-Frontstrap is a quick-start template for local html-coding and front-end development built on top of a webpack.
+**Frontstrap** is a ```quick-start``` template for local ```html-coding``` and ```front-end development``` built on top of a webpack.
 
 #### Advantages:  
 
@@ -20,8 +18,6 @@ Frontstrap is a quick-start template for local html-coding and front-end develop
 - ```Reset stylesheet``` out of the box
 - Minimal ```html-template```
 - Prepared ```.gitignore``` to quickly initialize your repository
-
------
 
 ## Installation:  
 ```
