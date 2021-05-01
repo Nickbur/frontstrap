@@ -7,7 +7,7 @@ module.exports = {
     // assets for work
     entry: {
         project: [
-            './src/js/scripts.js', 
+            './src/js/scripts.js',
             './src/scss/styles.scss'
         ],
     },
@@ -16,6 +16,16 @@ module.exports = {
         path: path.resolve(__dirname, 'public/assets'),
         filename: 'scripts.js',
     },
+    plugins: [
+        new MiniCssExtractPlugin({
+            filename: '../assets/styles.css',
+            chunkFilename: '../assets/[id].css',
+        }),
+        new LiveReloadPlugin({
+            protocol: 'http',
+            port: 54321
+        }),
+    ],
     module: {
         rules: [{
                 test: /\.s[ac]ss$/i,
@@ -30,6 +40,7 @@ module.exports = {
                         loader: 'css-loader',
                         options: {
                             sourceMap: true,
+                            url: false
                         }
                     },
                     // Loads a Sass/SCSS file and compiles it to CSS.
@@ -43,14 +54,4 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new MiniCssExtractPlugin({
-            filename: '../assets/styles.css',
-            chunkFilename: '../assets/[id].css',
-        }),
-        new LiveReloadPlugin({
-            protocol: 'http',
-            port: 54321
-        }),
-    ],
 };
