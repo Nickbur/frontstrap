@@ -16,7 +16,7 @@ Frontstrap is here to help you with that!
 Actually, this tool is a **steroid version of index.html + style.css**.  
   
 #### Advantages:  
-- Minimal ```html-template```, like [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/)
+- Minimal ```starter template```, like [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/)
 - ```Reset stylesheet``` out of the box
 - Auto-refresh of the page when editing ```*.html``` / ```*.scss/sass``` / ```*.js```
 - Always ```up-to-date``` versions of required dependencies

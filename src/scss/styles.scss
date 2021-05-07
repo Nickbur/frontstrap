@@ -4,6 +4,9 @@
 	'~sanitize.css/forms.css',
 	'~sanitize.css/typography.css';
 
+// bootstrap | https://getbootstrap.com/docs/5.0/getting-started/webpack/
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 // SASS for those who love pain and tabs
 @import '../sass/styles.sass';
 
