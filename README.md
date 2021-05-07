@@ -8,25 +8,33 @@
 
 # Frontstrap
 
-## Introduction:
+## Introduction:  
+> **Frontstrap** is a minimalistic webpack-based boilerplate to quickly start local html-coding and front-end development using [VSCode](https://code.visualstudio.com/).  
 
-> **Frontstrap** is a minimalistic webpack-based boilerplate to quickly start local html-coding and front-end development using [VSCode](https://code.visualstudio.com/).
-
+Sometimes you need to create HTML-markup for a separate block or even a whole layout for your or client's website. But right now, you don't want to mess around with a CMS or deploy a local development environment to work with.  
+Frontstrap is here to help you with that!  
+Actually, this tool is a **steroid version of index.html + style.css**.  
+  
 #### Advantages:  
-
 - Auto-refresh of the page when editing ```html```
 - Auto-refresh of the page when editing ```scss/sass```
 - The ability, if desired, to use both ```scss``` and ```sass``` at the same time
-- Basic ```npm-scripts```
+- Basic useful ```userscripts```
 - Always ```up-to-date``` versions of required dependencies
 - ```Reset stylesheet``` out of the box
 - Minimal ```html-template```
 - Prepared ```.gitignore``` to quickly initialize your repository
 
 ## Installation:  
+via [npm](https://www.npmjs.com/)  
 ```
 npm install
+```  
+or via [yarn](https://classic.yarnpkg.com/)  
 ```
+yarn install
+```  
+> There will be only ```npm``` commands below, but you can use any other package manager you like.  
   
 ## Usage:  
 
@@ -48,11 +56,13 @@ on terminal or by running npm-script in editor.
 npm run prod
 ```
   
-#### If you need to reinstall all dependencies :  
+#### If you need to reinstall all dependencies:
 ```
 npm run upd
 ```
-
-## License
-
+  
+## Deployment:
+Put the contents of the ```/public``` directory on your webroot. That's all. You are gorgeous.  
+  
+## License:
 Frontstrap is open-sourced software licensed under the [MIT license](LICENSE).
