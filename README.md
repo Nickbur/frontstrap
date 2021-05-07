@@ -18,7 +18,7 @@ Actually, this tool is a **steroid version of index.html + style.css**.
 #### Advantages:  
 - Minimal ```starter template```, like [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/)
 - ```Reset stylesheet``` out of the box
-- Auto-refresh of the page when editing ```*.html``` / ```*.scss/sass``` / ```*.js```
+- ```Auto-refresh``` of the page when editing *.html / *.scss/sass / *.js
 - Always ```up-to-date``` versions of required dependencies
 - The ability to use both ```scss``` and ```sass``` at the same time
 - Basic useful ```userscripts```
@@ -31,7 +31,7 @@ npm install
 ```  
 or via [Yarn](https://classic.yarnpkg.com/)  
 ```
-yarn install
+yarn
 ```  
 > There will be only ```npm``` commands below, but you can use any other package manager you like.  
   
