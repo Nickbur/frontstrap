@@ -16,13 +16,12 @@ Frontstrap is here to help you with that!
 Actually, this tool is a **steroid version of index.html + style.css**.  
   
 #### Advantages:  
-- Auto-refresh of the page when editing ```html```
-- Auto-refresh of the page when editing ```scss/sass```
-- The ability, if desired, to use both ```scss``` and ```sass``` at the same time
-- Basic useful ```userscripts```
-- Always ```up-to-date``` versions of required dependencies
+- Minimal ```html-template```, like [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/)
 - ```Reset stylesheet``` out of the box
-- Minimal ```html-template```
+- Auto-refresh of the page when editing ```*.html``` / ```*.scss/sass``` / ```*.js```
+- Always ```up-to-date``` versions of required dependencies
+- The ability to use both ```scss``` and ```sass``` at the same time
+- Basic useful ```userscripts```
 - Prepared ```.gitignore``` to quickly initialize your repository
 
 ## Installation:  
@@ -30,7 +29,7 @@ via [npm](https://www.npmjs.com/)
 ```
 npm install
 ```  
-or via [yarn](https://classic.yarnpkg.com/)  
+or via [Yarn](https://classic.yarnpkg.com/)  
 ```
 yarn install
 ```  
@@ -43,11 +42,11 @@ yarn install
 ```
 npm run watch
 ```  
-on terminal or by running npm-script in editor.  
+on terminal or by running userscript in editor.  
 
 2. Open in editor the ```*.html``` file you are going to work with.  
 
-3. Next run [Visual Studio Code Live Server](https://github.com/ritwickdey/vscode-live-server).  
+3. Run [Visual Studio Code Live Server](https://github.com/ritwickdey/vscode-live-server).  
 
 4. Your page will automatically open at ```http://127.0.0.1:5500/*```.  
   
@@ -62,7 +61,7 @@ npm run upd
 ```
   
 ## Deployment:
-Put the contents of the ```/public``` directory on your webroot. That's all. You are gorgeous.  
+Put the contents of the ```/public``` directory inside your webroot. That's all. You are gorgeous.  
   
 ## License:
 Frontstrap is open-sourced software licensed under the [MIT license](LICENSE).
