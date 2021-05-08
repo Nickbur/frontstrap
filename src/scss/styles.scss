@@ -1,17 +1,29 @@
-// sanitize.css | https://csstools.github.io/sanitize.css/
-@import
-	'~sanitize.css/sanitize.css',
-	'~sanitize.css/forms.css',
-	'~sanitize.css/typography.css';
+/**
+ * Uncomment those dependencies that you want to use in work.
+ */
 
-// Bootstrap | https://getbootstrap.com/docs/5.0/getting-started/webpack/
+/* sanitize.css | https://csstools.github.io/sanitize.css/ */
+@import '~sanitize.css/sanitize.css';
+@import '~sanitize.css/forms.css';
+@import '~sanitize.css/typography.css';
+
+/* Bootstrap | https://getbootstrap.com/docs/5.0/getting-started/webpack/ */
 // @import "~bootstrap/dist/css/bootstrap.min.css";
 
-// UIkit | https://getuikit.com/docs/webpack
-// @import '~uikit/src/scss/variables-theme.scss', '~uikit/src/scss/mixins-theme.scss', '~uikit/src/scss/uikit-theme.scss';
+/* UIkit | https://getuikit.com/docs/webpack */
+// @import '~uikit/src/scss/variables-theme.scss';
+// @import '~uikit/src/scss/mixins-theme.scss';
+// @import '~uikit/src/scss/uikit-theme.scss';
 
-// SASS for those who love pain and tabs
+/**
+ * Leave it as it is if you are not sure if you need it.
+ */
+
+/* SASS for those who love pain and tabs */
 @import '../sass/styles.sass';
 
-// General SCSS starts here
+/**
+ * General SCSS. The real work starts here.
+ */
+
 // ...

@@ -1,19 +1,29 @@
-// Alpine.js | https://github.com/alpinejs/alpine
-// import 'alpinejs';
+/**
+ * Uncomment those dependencies that you want to use in work
+ */
 
-// Jquery
+/* Alpine.js | https://github.com/alpinejs/alpine */
+// import alpinejs from 'alpinejs';
+
+/* Jquery */
 // import $ from 'jquery';
 // import jQuery from 'jquery';
-// window.$ = jQuery;
+/* https://stackoverflow.com/a/34340392 */
+// window.$ = window.jQuery = jQuery;
+// global.jQuery = global.$ = $;
 
-// Bootstrap
+/* Bootstrap */
 // import bootstrap from 'bootstrap';
 
-// UIkit | // https://getuikit.com/docs/webpack
+/* UIkit | https://getuikit.com/docs/webpack */
 // import UIkit from 'uikit';
 
-// UIkit Icon plugin
+/* UIkit Icon plugin */
 // import Icons from 'uikit/dist/js/uikit-icons';
 // UIkit.use(Icons);
 
-// General scripts
+/**
+ * General scripts.
+ */
+
+// ...
