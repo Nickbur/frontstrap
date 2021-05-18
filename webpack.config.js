@@ -1,6 +1,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const LiveReloadPlugin = require('webpack-livereload-plugin');
+const WebpackBar = require('webpackbar');
 
 // https://webpack.js.org/guides/entry-advanced/#multiple-file-types-per-entry
 module.exports = {
@@ -21,10 +22,8 @@ module.exports = {
             filename: '../assets/styles.css',
             chunkFilename: '../assets/[id].css',
         }),
-        new LiveReloadPlugin({
-            protocol: 'http',
-            port: 54321
-        }),
+        new LiveReloadPlugin(),
+        new WebpackBar()
     ],
     module: {
         rules: [{

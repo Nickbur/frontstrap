@@ -2,6 +2,9 @@
  * Uncomment those dependencies that you want to use in work
  */
 
+/* Axios | https://github.com/axios/axios#installing */
+// import axios from 'axios';
+
 /* Alpine.js | https://github.com/alpinejs/alpine */
 // import alpinejs from 'alpinejs';
 
