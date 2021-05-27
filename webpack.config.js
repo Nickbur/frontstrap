@@ -1,6 +1,5 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const LiveReloadPlugin = require('webpack-livereload-plugin');
 const WebpackBar = require('webpackbar');
 
