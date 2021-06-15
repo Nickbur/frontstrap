@@ -42,11 +42,11 @@ yarn
 ```
 npm run watch
 ```  
-on terminal or by running userscript in editor.  
+in terminal or by running userscript in editor.  
 
 2. Open in editor the ```*.html``` file you are going to work with.  
 
-3. Run [Visual Studio Code Live Server](https://github.com/ritwickdey/vscode-live-server).  
+3. Run [Visual Studio Code Live Server](https://github.com/ritwickdey/vscode-live-server#shortcuts-to-startstop-server).  
 
 4. Your page will automatically open at ```http://127.0.0.1:5500/*```.  
   
