@@ -44,11 +44,13 @@ npm run watch
 ```  
 in terminal or by running userscript in editor.  
 
-2. Open in editor the ```*.html``` file you are going to work with.  
+2. Create and open in editor the ```/public/*.html``` file you are going to work with (```index.html``` already exists by default).  
 
-3. Run [Visual Studio Code Live Server](https://github.com/ritwickdey/vscode-live-server#shortcuts-to-startstop-server).  
+3. Run [Visual Studio Code Live Server](https://github.com/ritwickdey/vscode-live-server#shortcuts-to-startstop-server) by clicking "Go Live".  
 
 4. Your page will automatically open at ```http://127.0.0.1:5500/*```.  
+
+5. Write your ```html```, ```css/scss/sass``` and ```js``` code - changes will be immediately displayed on the page without reloading it. 
   
 #### Production build:
 ```
@@ -62,6 +64,9 @@ npm run upd
   
 ## Deployment:
 Put the contents of the ```/public``` directory inside your webroot. That's all. You are gorgeous.  
+  
+## Tips and tricks:
+...
   
 ## License:
 Frontstrap is open-sourced software licensed under the [MIT license](LICENSE).
